@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2589617590E030F65B3AEF1"
+               BuildableName = "TrafficDataCommandLineImporter"
+               BlueprintName = "TrafficDataCommandLineImporter"
+               ReferencedContainer = "container:TrafficDataCommandLineImporter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D2589617590E030F65B3AEF1"
+            BuildableName = "TrafficDataCommandLineImporter"
+            BlueprintName = "TrafficDataCommandLineImporter"
+            ReferencedContainer = "container:TrafficDataCommandLineImporter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "DATA_DIRECTORY"
+            value = "/Users/florian/Desktop/Data"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+   </LaunchAction>
+</Scheme>

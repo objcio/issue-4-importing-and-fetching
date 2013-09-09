@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0C555B7-E609-4CF7-BC8C-C6B4C6D38B38</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TrafficSearch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>610F01AB-2194-4412-93E2-96CC9DA4EE0B</key>
+		<string>ssh://github.com/chriseidhof/objc.io.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Projects/TrafficDataCommandLineImporter/TrafficSearch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>610F01AB-2194-4412-93E2-96CC9DA4EE0B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/chriseidhof/objc.io.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>610F01AB-2194-4412-93E2-96CC9DA4EE0B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>610F01AB-2194-4412-93E2-96CC9DA4EE0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>objc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3394" systemVersion="13A569" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Stop" representedClassName="Stop" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="normalizedName" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="stopTimes" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="StopTime" inverseName="stop" inverseEntity="StopTime" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="longitude"/>
+                <index value="latitude"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="StopTime" representedClassName="StopTime" syncable="YES">
+        <attribute name="arrivalTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="departureTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dropOffType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pickupType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="stop" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Stop" inverseName="stopTimes" inverseEntity="Stop" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Stop" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="StopTime" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
